@@ -11,7 +11,7 @@ showFullContent = false
 +++
 
 ### 1. SQL Server
-- C (Create): tạo 10 mẫu tin cho 10 sinh viên:
+- C (Create): Tạo 10 mẫu tin cho 10 sinh viên:
 ```sql
 insert into SinhVien values ('1710289', N'Phan Quốc Trung', 1999, 8, 9, 9, '1710289@dlu.edu.vn', '0349981228');
 insert into SinhVien values ('1710233', N'Đặng Trần Hữu Nhân', 1999, 5, 5, 5, '1710233@dlu.edu.vn', '0345547878');
@@ -30,26 +30,24 @@ insert into SinhVien values ('1710285', N'Lê Anh Trí', 1999, 8, 9, 9, '1710285
 ```sql
 select * from dbo.SinhVien
 ```
-
 - {{< figure src="/img/dbms/dbms-08/Lab08_1.png" title="lab8" >}}
 {{< linebreak >}}
-- U (Update): cập nhật điểm sinh viên
+- U (Update): Cập nhật điểm sinh viên
 ```sql
 update dbo.SinhVien
 set DiemMon1=8.5
-where MSSV='1710289'
+where MSSV='1714234'
 ```
 - {{< figure src="/img/heqtcsdl/lab8/lab8_3.png" title="lab8" >}}
 {{< linebreak >}}
-- D (Delete): xoá 1 sinh viên nào đó
+- D (Delete): Xoá 1 sinh viên nào đó
 ```sql
-delete from dbo.SinhVien where MSSV='1710289'
+delete from dbo.SinhVien where MSSV='1714234'
 ```
 - {{< figure src="/img/heqtcsdl/lab8/lab8_4.png" title="lab8" >}}
-
 {{< linebreak >}}
 ### 2. Mongo
-- C (Create): tạo 10 mẫu tin cho 10 sinh viên:
+- C (Create): Tạo 10 mẫu tin cho 10 sinh viên:
 ```json
 db.getCollection('SinhVien').insertMany([{ 
   MSSV: '1710289', Hoten: 'Phan Quốc Trung', Namsinh: 1999, DiemMon1: 8, DiemMon2: 7, DiemMon3: 10, Email: '1710289@dlu.edu.vn', DienThoai: '0349981228'
@@ -74,19 +72,19 @@ db.getCollection('SinhVien').insertMany([{
 }])
 ```
 {{< linebreak >}}
-- R (Read): đọc dữ liệu sinh viên
+- R (Read): Đọc dữ liệu sinh viên
 ```js
 use quanlysinhvien;
 db.getCollection('SinhVien').find({});
 ```
-- {{< figure src="/img/heqtcsdl/lab8/lab8_5.png" title="lab8" >}}
+- {{< figure src="/img/dbms/dbms-08/Lab08_5.png" title="lab8" >}}
 
 {{< linebreak >}}
 - U(Update): cập nhật điểm sinh viên
 ```ts
 use quanlysinhvien;
 db.getCollection('SinhVien').updateOne(
-  { MSSV: '1710289' }, // query parameter
+  { MSSV: '1714234' }, // query parameter
   $set: {
     DiemMon1: 10,
     DiemMon2: 9,
@@ -97,10 +95,10 @@ db.getCollection('SinhVien').updateOne(
 - {{< figure src="/img/heqtcsdl/lab8/lab8_6.png" title="lab8" >}}
 
 {{< linebreak >}}
-- D (Delete): xoá 1 sinh viên nào đó
+- D (Delete): Xoá 1 sinh viên nào đó
 ```ts
 db.getCollection('SinhVien').remove({
-  MSSV: '1710289'
+  MSSV: '1714234'
 })
 ```
 - {{< figure src="/img/heqtcsdl/lab8/lab8_7.png" title="lab8" >}}
@@ -133,11 +131,11 @@ select * from SinhVien
 ```sql
 update SinhVien
 set DiemMon1=8.5
-where MSSV='1710289'
+where MSSV='1714234'
 ```
 
 {{< linebreak >}}
 - D (Delete): Xoá 1 sinh viên nào đó
 ```sql
-delete from dbo.SinhVien where MSSV='1710289'
+delete from dbo.SinhVien where MSSV='1714234'
 ```
