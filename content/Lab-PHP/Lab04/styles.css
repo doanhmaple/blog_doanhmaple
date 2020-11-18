@@ -1,0 +1,32 @@
+.content{
+    border: 1px solid gray;
+    padding: 20px;
+    width: 700px;
+    margin: 0px auto;
+}
+
+.content .grid-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.content .grid-container-result{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.content .grid-item{
+
+}
+
+.content h1{
+    color: darkred;
+}
+
+.content img{
+    max-width: 90%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}

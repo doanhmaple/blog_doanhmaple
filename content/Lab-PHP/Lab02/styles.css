@@ -1,0 +1,52 @@
+#title-calc{
+    color: red;
+    border-width: 3px;
+    border-color: orange;
+    text-align: center;
+}
+
+.center-form-calc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    max-width: 600px;
+    border-style: solid;
+    border-color: gray;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+.content div.row{
+    margin-top: 20px;
+}
+
+.content div.row span{
+    display: inline-block;
+    width: 255px;
+    text-align: right;
+}
+
+.content div.row input[type=text]{
+    padding: 3px 5px;
+}
+
+.content div.row input[type=submit]{
+    padding: 3px 5px;
+    display: block;
+    margin: 0px auto 20px auto;
+}
+
+.content div.row p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+img.zodiac{
+    display: flex;
+    margin: 0px auto;
+}
