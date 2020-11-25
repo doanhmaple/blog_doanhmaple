@@ -1,12 +1,13 @@
 +++
 title = "Lab 3. Đăng ký tên miền có phí"
-date = "2020-09-28"
+date = "2020-09-29"
 author = "doanhmaple"
 authorTwitter = "doanhmaple" #do not include @
 cover = ""
 tags = ["", "register_domain", "ptudweb"]
 keywords = ["", ""]
 description = ""
+categories = "Phát triển Ứng dụng Web"
 showFullContent = false
 +++
 

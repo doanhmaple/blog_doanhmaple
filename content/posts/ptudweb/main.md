@@ -1,12 +1,13 @@
 +++
 title = "Bài Lab Phát triển ứng dụng Web"
-date = "2020-10-02"
+date = "2020-11-11"
 author = "doanhmaple"
 authorTwitter = "doanhmaple" #do not include @
 cover = ""
 tags = ["ptudweb", "main"]
 keywords = ["", ""]
 description = ""
+categories = "Phát triển Ứng dụng Web"
 showFullContent = false
 +++
 
@@ -21,7 +22,3 @@ showFullContent = false
 |  Lab 7. Tìm hiểu các thông số liên quan đến một web hosting   |  {{< link href="../webapp-07" >}}here{{< /link>}}   |
 |  Lab 8. Shared hosting miễn phí  |  {{< link href="../webapp-08" >}}here{{< /link>}}   |
 |  Lab 9. Shared hosting có phí  |  {{< link href="../webapp-09" >}}here{{< /link>}}   |
-
-| --- | --- |
-|:---:|:---:|
-|  Thuật ngữ CNTT  |  {{< link href="../thuatngu" >}}here{{< /link>}}   |

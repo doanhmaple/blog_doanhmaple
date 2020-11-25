@@ -7,6 +7,7 @@ cover = "" #cover image
 tags = ["", "dns", "ptudweb"]
 keywords = ["dns", ""]
 description = ""
+categories = "Phát triển Ứng dụng Web"
 showFullContent = false
 +++
 

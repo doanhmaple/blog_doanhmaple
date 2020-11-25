@@ -7,12 +7,16 @@ cover = ""
 tags = ["mysql", "dbms"]
 keywords = ["", ""]
 description = ""
+categories = "Hệ quản trị Cơ Sở Dữ Liệu"
 showFullContent = false
 +++
 
+---
+
 ### 1. Giới thiệu MySQL
+
 - MySQL là chương trình dùng để quản lý hệ thống cơ sở dữ liệu (CSDL), trong đó CSDL là một hệ thống lưu trữ thông tin. được sắp xếp rõ ràng, phân lớp ngăn nắp những thông tin mà mình lưu trữ.
 
-
 ### 2. Cài đặt MySQL
-- {{< figure src="/img/dbms/dbms-03/Lab03_1.png" title="lab3_1" >}}
+
+- {{< figure src="/img/dbms/dbms-03/Lab03_1.png" title="Lab3_1" >}}

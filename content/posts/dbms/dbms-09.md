@@ -1,12 +1,13 @@
 +++
 title = "Lab 9 & Lab 10"
-date = "2020-11-07"
+date = "2020-11-10"
 author = "doanhmaple"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["mongo", "mysql", "dbms"]
 keywords = ["", ""]
 description = ""
+categories = "Hệ quản trị Cơ Sở Dữ Liệu"
 showFullContent = false
 +++
 

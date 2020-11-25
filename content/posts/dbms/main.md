@@ -1,12 +1,13 @@
 +++
 title = "Bài Lab Hệ quản trị CSDL"
-date = "2020-11-06"
+date = "2020-11-11"
 author = "doanhmaple"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["dbms", "main"]
 keywords = ["", ""]
 description = ""
+categories = "Hệ quản trị Cơ Sở Dữ Liệu"
 showFullContent = false
 +++
 
@@ -23,5 +24,5 @@ showFullContent = false
 | TH2: Kiến trúc và phân loại DBMS |  Link   |
 | --- |:---:|
 | Lab 7. Sử dụng DDL định nghĩa dữ liệu cho đối tượng Sinh Viên | {{< link href="../dbms-07" >}}here{{< /link>}} |
-| Lab 8. Tạo 10 mẫu tin (nhập dữ liệu) cho 10 sinh viên. Sau đó thực hiện các thao tác CRUD (Create, Read, Update, Delete) trên dữ liệu mẫu    | {{< link href="../dbms-08" >}}here{{< /link>}} |
-| Lab 9&10. Tạo 10 mẫu tin (nhập dữ liệu) cho 10 sinh viên. Sau đó thực hiện các thao tác CRUD (Create, Read, Update, Delete) trên dữ liệu mẫu. Được tuỳ chọn ngôn ngữ lập trình    | {{< link href="../dbms-09" >}}here{{< /link>}} |
+| Lab 8. Tạo 10 mẫu tin (nhập dữ liệu) cho 10 sinh viên. Sau đó thực hiện các thao tác CRUD (Create, Read, Update, Delete) trên dữ liệu mẫu | {{< link href="../dbms-08" >}}here{{< /link>}} |
+| Lab 9 & 10. Tạo 10 mẫu tin (nhập dữ liệu) cho 10 sinh viên. Sau đó thực hiện các thao tác CRUD (Create, Read, Update, Delete) trên dữ liệu mẫu. Được tuỳ chọn ngôn ngữ lập trình    | {{< link href="../dbms-09" >}}here{{< /link>}} |

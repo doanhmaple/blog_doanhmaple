@@ -1,12 +1,13 @@
 +++
 title = "Lab 6. Tìm hiểu về các loại hosting"
-date = "2020-09-29"
+date = "2020-10-02"
 author = "doanhmaple"
 authorTwitter = "doanhmaple" #do not include @
 cover = ""
 tags = ["", "hosting", "ptudweb"]
 keywords = ["", ""]
 description = ""
+categories = "Phát triển Ứng dụng Web"
 showFullContent = false
 +++
 

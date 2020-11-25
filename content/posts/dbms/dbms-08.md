@@ -1,17 +1,22 @@
 +++
 title = "Lab 8. Tạo 10 mẫu tin (nhập dữ liệu) cho 10 sinh viên. Sau đó thực hiện các thao tác CRUD (Create, Read, Update, Delete) trên dữ liệu mẫu"
-date = "2020-11-05"
+date = "2020-11-08"
 author = "doanhmaple"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["crud", "dbms"]
 keywords = ["", ""]
 description = ""
+categories = "Hệ quản trị Cơ Sở Dữ Liệu"
 showFullContent = false
 +++
 
+---
+
 ### 1. SQL Server
+
 - C (Create): Tạo 10 mẫu tin cho 10 sinh viên:
+
 ```sql
 insert into SinhVien values ('1710289', N'Phan Quốc Trung', 1999, 8, 9, 9, '1710289@dlu.edu.vn', '0349981228');
 insert into SinhVien values ('1710233', N'Đặng Trần Hữu Nhân', 1999, 5, 5, 5, '1710233@dlu.edu.vn', '0345547878');
@@ -25,7 +30,9 @@ insert into SinhVien values ('1710204', N'Bùi Đức Hoàng Lâm', 1999, 8, 9, 
 insert into SinhVien values ('1710303', N'Phạm Hoàng Việt', 1999, 8, 9, 9, '1710303@dlu.edu.vn', '0345547878');
 insert into SinhVien values ('1710285', N'Lê Anh Trí', 1999, 8, 9, 9, '1710285@dlu.edu.vn', '0345547878');
 ```
+
 {{< linebreak >}}
+
 - R (Read): Đọc dữ liệu sinh viên
 ```sql
 select * from dbo.SinhVien

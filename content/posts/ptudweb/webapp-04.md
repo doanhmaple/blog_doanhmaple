@@ -1,12 +1,13 @@
 +++
 title = "Lab 4. Hiểu về web server"
-date = "2020-09-28"
+date = "2020-09-30"
 author = "doanhmaple"
 authorTwitter = "doanhmaple" #do not include @
 cover = ""
 tags = ["", "web_server", "ptudweb"]
 keywords = ["", ""]
 description = ""
+categories = "Phát triển Ứng dụng Web"
 showFullContent = false
 +++
 

@@ -7,5 +7,6 @@ cover = ""
 tags = ["", ""]
 keywords = ["", ""]
 description = ""
+categories = ""
 showFullContent = false
 +++
